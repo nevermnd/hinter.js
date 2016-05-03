@@ -1,0 +1,27 @@
+{
+  "name": "hinter",
+  "authors": [
+    "Thiago Oliveira <thiago.oliveira.gt14@gmail.com>"
+  ],
+  "description": "Lightweight jquery plugin to display bootstrap hints",
+  "main": "src/hinter.js",
+  "keywords": [
+    "bootstrap",
+    "hint",
+    "plugin",
+    "jquery"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.12.3 || >=2.0.0",
+    "bootstrap": "^3.0.0"
+  }
+}

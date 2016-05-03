@@ -1,0 +1,26 @@
+{
+  "name": "hinter",
+  "version": "0.0.1",
+  "description": "Lightweight jquery plugin to display bootstrap hints",
+  "main": "dist/js/hinter.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "keywords": [
+    "hinter",
+    "bootstrap",
+    "jquery",
+    "hint"
+  ],
+  "author": "Thiago Oliveira <thiago.oliveira.gt14@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.0"
+  }
+}
