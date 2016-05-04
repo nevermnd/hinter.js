@@ -22,14 +22,6 @@
             $hinter = $('<div></div>');
 
         /**
-         * Init the plugin
-         */
-        this.init = function (config) {
-            methods.config.apply(this, arguments);
-            methods.show.apply(this);
-            return this;
-        };
-        /**
          * Configure the plugin options
          */
         this.config = function (config) {
@@ -68,7 +60,7 @@
          * Hinter timeout
          */
         this.delay = function (timeout) {
-            options.timeout = timeout;
+            options.delay = timeout;
             return this;
         };
         /**
@@ -116,10 +108,13 @@
                     .text(options.message)
                     .prepend('<button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>')
             );
-            $("#" + options.id).delay(options.delay).slideUp(options.slideUp, function () {
-                // Remove object after the delay
-                $(this).remove();
-            });
+            
+            if (options.delay > 0) {
+                $("#" + options.id).delay(options.delay).slideUp(options.slideUp, function () {
+                    // Remove object after the delay
+                    $(this).remove();
+                });
+            }
 
             // Avoid loop
             return $(this).hinter().config(options);
