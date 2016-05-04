@@ -69,4 +69,8 @@ describe("hinter", function () {
         expect($("#test-hint")).toHaveClass("alert-danger");
     });
 
+    it("should return new object after calling show()", function () {
+        expect(hinter.show()).not.toEqual(hinter);
+    });
+
 });

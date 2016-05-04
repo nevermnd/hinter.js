@@ -116,8 +116,7 @@
                 });
             }
 
-            // Avoid loop
-            return $(this).hinter().config(options);
+            return $(this).hinter();
         };
 
         // plugin initialization
