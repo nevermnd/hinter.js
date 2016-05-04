@@ -20,7 +20,7 @@ describe("hinter", function () {
         expect(hinter.options().slideUp).toBe(100);
 
         expect(hinter.delay(4)).toEqual(hinter);
-        expect(hinter.options().timeout).toBe(4);
+        expect(hinter.options().delay).toBe(4);
 
         expect(hinter.id("hinter-id")).toEqual(hinter);
         expect(hinter.options().id).toBe("hinter-id");
@@ -68,4 +68,5 @@ describe("hinter", function () {
         hinter.success().id("test-hint").error().show();
         expect($("#test-hint")).toHaveClass("alert-danger");
     });
+
 });

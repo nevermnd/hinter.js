@@ -60,7 +60,7 @@
          * Hinter timeout
          */
         this.delay = function (timeout) {
-            options.timeout = timeout;
+            options.delay = timeout;
             return this;
         };
         /**
