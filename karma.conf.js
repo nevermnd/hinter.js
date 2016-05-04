@@ -8,7 +8,8 @@ module.exports = function (config) {
             'tests/*.test.js'
         ],
         browsers: ['PhantomJS'],
-        frameworks: ['jasmine-jquery', 'jasmine']
+        frameworks: ['jasmine-jquery', 'jasmine'],
+        singleRun: true
     });
 
 };
