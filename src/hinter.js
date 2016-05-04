@@ -22,14 +22,6 @@
             $hinter = $('<div></div>');
 
         /**
-         * Init the plugin
-         */
-        this.init = function (config) {
-            methods.config.apply(this, arguments);
-            methods.show.apply(this);
-            return this;
-        };
-        /**
          * Configure the plugin options
          */
         this.config = function (config) {
