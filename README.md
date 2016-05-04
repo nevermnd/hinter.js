@@ -60,7 +60,7 @@ $('body').hinter().success().message("Nice friendly message!").delay(6000).show(
 Or you can mix both. Ex:
 
 ```js
-$('body').hinter({ isSuccess: false, delay: 3000}).message("Ohh snap! An error has ocurred =(").show();
+$('body').hinter().config({ isSuccess: false, delay: 3000}).message("Ohh snap! An error has ocurred =(").show();
 ```
 
 ## TODO
