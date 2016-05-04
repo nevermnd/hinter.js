@@ -92,6 +92,12 @@
             return $hinter;
         };
         /**
+         * Plugin options
+         */
+        this.options = function () {
+            return options;
+        }
+        /**
          * Show hint
          */
         this.show = function () {

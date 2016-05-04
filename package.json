@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Lightweight jquery plugin to display bootstrap hints",
   "main": "dist/js/hinter.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nevermnd/hinter"
+  },
   "directories": {
     "test": "tests"
   },
@@ -20,7 +24,9 @@
   "devDependencies": {
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.22",
-    "karma-chrome-launcher": "^1.0.1",
-    "karma-jasmine": "^1.0.0"
+    "karma-jasmine": "^1.0.2",
+    "karma-jasmine-jquery": "^0.1.1",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.7"
   }
 }
