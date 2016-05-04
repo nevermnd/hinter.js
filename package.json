@@ -5,7 +5,7 @@
   "main": "dist/js/hinter.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nevermnd/hinter"
+    "url": "https://github.com/nevermnd/hinter.js"
   },
   "directories": {
     "test": "tests"

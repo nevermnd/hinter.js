@@ -4,6 +4,10 @@
     "Thiago Oliveira <thiago.oliveira.gt14@gmail.com>"
   ],
   "description": "Lightweight jquery plugin to display bootstrap hints",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nevermnd/hinter.js"
+  },
   "main": "src/hinter.js",
   "keywords": [
     "bootstrap",
