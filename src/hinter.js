@@ -103,6 +103,12 @@
         this.show = function () {
             $(this).prepend(
                 $hinter
+                    .css("top", "10px")
+                    .css("z-index", 9000)
+                    .css("width", "380px")
+                    .css("margin-left", "-200px")
+                    .css("left", "50%")
+                    .css("text-align", "center")
                     .addClass(options.isSuccess ? 'alert-success' : 'alert-danger')
                     .addClass(options.class)
                     .addClass('alert affix')
@@ -114,7 +120,7 @@
                 // Remove object after the delay
                 $(this).remove();
             });
-            
+
             // Avoid loop
             return $(this).hinter().config(options);
         };

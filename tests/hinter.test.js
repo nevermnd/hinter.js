@@ -59,4 +59,13 @@ describe("hinter", function () {
         expect($("#hinter-2-spooky")).toBeVisible();
     });
 
+    it("should use alert-success class", function () {
+        hinter.success().id("test-hint").show();
+        expect($("#test-hint")).toHaveClass("alert-success");
+    });
+
+    it("should use alert-danger class", function () {
+        hinter.success().id("test-hint").error().show();
+        expect($("#test-hint")).toHaveClass("alert-danger");
+    });
 });
