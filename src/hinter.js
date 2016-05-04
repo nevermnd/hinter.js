@@ -121,7 +121,7 @@
         };
 
         // plugin initialization
-        options = $.extend({}, defaults, params || {});
+        this.config(params);
 
         // let's assume that if user provides a configuration on the initialization function,
         // he wants to configure and show the hinter right away
