@@ -12,7 +12,7 @@ Install with [Bower](http://bower.io):
 
 or [npm](https://www.npmjs.com):
 
-``` npm install hinter ```
+``` npm install hinter.js ```
 
 then include the javascript file on your HTML page after `jquery` and `bootstrap`.
 
