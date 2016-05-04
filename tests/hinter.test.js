@@ -53,7 +53,7 @@ describe("hinter", function () {
     });
 
     it("should configure and show the hint right away", function () {
-        var config = { message: "Scare error message", isSuccess: false, id: "hinter-2-spooky" };
+        var config = { message: "Scary error message", isSuccess: false, id: "hinter-2-spooky" };
 
         $('body').hinter(config);
         expect($("#hinter-2-spooky")).toBeVisible();
