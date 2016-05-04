@@ -108,20 +108,20 @@
                     .text(options.message)
                     .prepend('<button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>')
             );
-            
+
             if (options.delay > 0) {
-                $("#" + options.id).delay(options.delay).slideUp(options.slideUp, function () {
+                $("#".concat(options.id)).delay(options.delay).slideUp(options.slideUp, function () {
                     // Remove object after the delay
-                    $(this).remove();
+                    $hinter.remove();
+                    $("#".concat(options.id)).remove();
                 });
             }
 
-            // Avoid loop
-            return $(this).hinter().config(options);
+            return $(this).hinter();
         };
 
         // plugin initialization
-        options = $.extend({}, defaults, params || {});
+        this.config(params);
 
         // let's assume that if user provides a configuration on the initialization function,
         // he wants to configure and show the hinter right away
