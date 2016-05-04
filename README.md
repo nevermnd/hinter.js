@@ -8,7 +8,7 @@
 
 Install with [Bower](http://bower.io):
 
-``` bower install hinter ```
+``` bower install hinter.js ```
 
 or [npm](https://www.npmjs.com):
 
