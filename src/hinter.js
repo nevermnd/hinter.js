@@ -108,11 +108,12 @@
                     .text(options.message)
                     .prepend('<button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>')
             );
-            
+
             if (options.delay > 0) {
-                $("#" + options.id).delay(options.delay).slideUp(options.slideUp, function () {
+                $("#".concat(options.id)).delay(options.delay).slideUp(options.slideUp, function () {
                     // Remove object after the delay
-                    $(this).remove();
+                    $hinter.remove();
+                    $("#".concat(options.id)).remove();
                 });
             }
 

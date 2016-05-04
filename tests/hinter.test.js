@@ -73,4 +73,12 @@ describe("hinter", function () {
         expect(hinter.show()).not.toEqual(hinter);
     });
 
+    it("should remove hint after delay timeout", function (done) {
+        hinter.delay(100).slideUp(1).show();
+        setTimeout(function () {
+            expect($("#hinter")).not.toBeInDOM();
+            done();
+        }, 250);
+    });
+
 });
