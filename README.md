@@ -14,7 +14,7 @@ or [npm](https://www.npmjs.com):
 
 ``` npm install hinter ```
 
-then include the javascript file on your after `jquery` and `bootstrap`.
+then include the javascript file on your HTML page after `jquery` and `bootstrap`.
 
 ```html
   <!-- ... -->
