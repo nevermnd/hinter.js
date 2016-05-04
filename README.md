@@ -33,7 +33,7 @@ The plugin configuration options are the following:
 + message 
   + the hint message
 + isSuccess
-  + whether to display a success message or a error message
+  + whether to display a success message or an error message
 + slideUp
   + the slideUp animation delay (ms)
 + delay
