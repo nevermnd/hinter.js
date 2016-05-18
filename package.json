@@ -1,6 +1,6 @@
 {
   "name": "hinter.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight jquery plugin to display bootstrap hints",
   "main": "dist/js/hinter.js",
   "repository": {
