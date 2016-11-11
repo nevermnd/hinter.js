@@ -1,6 +1,6 @@
 # hinter.js
 
-[![Build Status](https://travis-ci.org/nevermnd/hinter.js.svg?branch=master)](https://travis-ci.org/nevermnd/hinter.js)
+[![Build Status](https://travis-ci.org/skiptirengu/hinter.js.svg?branch=master)](https://travis-ci.org/skiptirengu/hinter.js)
 
 *hinter.js* is a Lightweight jQuery plugin to display nice bootstrap hints.
 
