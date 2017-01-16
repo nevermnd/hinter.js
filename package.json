@@ -19,7 +19,7 @@
     "jquery",
     "hint"
   ],
-  "author": "Thiago Oliveira <thiago.oliveira.gt14@gmail.com>",
+  "author": "Skiptir Engu <skiptir.engu@yandex.com>",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
