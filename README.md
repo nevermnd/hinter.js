@@ -4,6 +4,10 @@
 
 *hinter.js* is a Lightweight jQuery plugin to display nice bootstrap hints.
 
+![Success hint](https://cloud.githubusercontent.com/assets/5993725/22767505/b8f1cefc-ee62-11e6-95b5-873ad6ea0d40.png)
+
+![Error hint](https://cloud.githubusercontent.com/assets/5993725/22767499/b39abde2-ee62-11e6-80c9-6496b8aedae7.png)
+
 ## Installation
 
 Install with [Bower](http://bower.io):
